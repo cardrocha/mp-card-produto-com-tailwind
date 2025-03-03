@@ -1,9 +1,11 @@
+import { CardProduct } from "./components/CardProduct"
+
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-3xl">Hello World</h1>
+      <div className="max-w-[988px] min-h-[803] mx-auto py-11 px-56">
+        <CardProduct />
       </div>
     </>
   )
